@@ -1,12 +1,12 @@
-module github.com/google/go-containerregistry/pkg/authn/kubernetes
+module github.com/stgrace/go-containerregistry/pkg/authn/kubernetes
 
 go 1.23.0
 
-replace github.com/google/go-containerregistry => ../../../
+replace github.com/stgrace/go-containerregistry => ../../../
 
 require (
 	github.com/google/go-cmp v0.6.0
-	github.com/google/go-containerregistry v0.20.2
+	github.com/stgrace/go-containerregistry v0.20.2
 	k8s.io/api v0.32.0
 	k8s.io/apimachinery v0.32.0
 	k8s.io/client-go v0.32.0

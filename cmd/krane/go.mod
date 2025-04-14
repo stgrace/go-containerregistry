@@ -1,13 +1,13 @@
-module github.com/google/go-containerregistry/cmd/krane
+module github.com/stgrace/go-containerregistry/cmd/krane
 
 go 1.23.0
 
-replace github.com/google/go-containerregistry => ../../
+replace github.com/stgrace/go-containerregistry => ../../
 
 require (
 	github.com/awslabs/amazon-ecr-credential-helper/ecr-login v0.0.0-20250115170608-608f37feb051
 	github.com/chrismellard/docker-credential-acr-env v0.0.0-20230304212654-82a0ddb27589
-	github.com/google/go-containerregistry v0.20.2
+	github.com/stgrace/go-containerregistry v0.20.2
 )
 
 require (
