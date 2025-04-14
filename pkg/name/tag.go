@@ -86,7 +86,7 @@ func NewTag(name string, opts ...Option) (Tag, error) {
 	// even when not being strict.
 	// If we are being strict, we want to validate the tag regardless in case
 	// it's empty.
-	if tag != "" || opt.strict {
+	if !opt.ignoreValidation || tag != "" || opt.strict {
 		if err := checkTag(tag); err != nil {
 			return Tag{}, err
 		}
