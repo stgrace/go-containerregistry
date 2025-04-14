@@ -19,12 +19,12 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/google/go-containerregistry/cmd/crane/cmd"
-	gcmd "github.com/google/go-containerregistry/cmd/gcrane/cmd"
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/gcrane"
-	"github.com/google/go-containerregistry/pkg/logs"
 	"github.com/spf13/cobra"
+	"github.com/stgrace/go-containerregistry/cmd/crane/cmd"
+	gcmd "github.com/stgrace/go-containerregistryy/cmd/gcrane/cmd"
+	"github.com/stgrace/go-containerregistryy/pkg/crane"
+	"github.com/stgrace/go-containerregistryy/pkg/gcrane"
+	"github.com/stgrace/go-containerregistryy/pkg/logs"
 )
 
 func init() {

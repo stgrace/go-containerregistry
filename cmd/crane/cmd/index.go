@@ -18,17 +18,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/logs"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/empty"
-	"github.com/google/go-containerregistry/pkg/v1/match"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
-	"github.com/google/go-containerregistry/pkg/v1/types"
 	"github.com/spf13/cobra"
+	"github.com/stgrace/go-containerregistry/pkg/crane"
+	"github.com/stgrace/go-containerregistryy/pkg/logs"
+	"github.com/stgrace/go-containerregistryy/pkg/name"
+	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/empty"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/match"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/mutate"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/partial"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/remote"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
 )
 
 // NewCmdIndex creates a new cobra.Command for the index subcommand.

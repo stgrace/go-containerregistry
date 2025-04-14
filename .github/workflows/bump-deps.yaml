@@ -14,7 +14,7 @@ jobs:
     name: Bump Deps
 
     # Don't bother bumping deps on forks.
-    if: ${{ github.repository == 'google/go-containerregistry' }}
+    if: ${{ github.repository == 'stgrace/go-containerregistry' }}
     runs-on: ubuntu-latest
 
     steps:

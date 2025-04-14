@@ -14,7 +14,7 @@ A collection of useful things you can do with `crane` is [here](recipes.md).
 1. Get the [latest release](https://github.com/stgrace/go-containerregistry/releases/latest) version.
 
    ```sh
-   $ VERSION=$(curl -s "https://api.github.com/repos/google/go-containerregistry/releases/latest" | jq -r '.tag_name')
+   $ VERSION=$(curl -s "https://api.github.com/repos/stgrace/go-containerregistry/releases/latest" | jq -r '.tag_name')
    ```
 
    or set a specific version:

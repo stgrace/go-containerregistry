@@ -20,10 +20,10 @@ import (
 	"io"
 	"path"
 
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
 	"github.com/spf13/cobra"
+	"github.com/stgrace/go-containerregistry/pkg/crane"
+	"github.com/stgrace/go-containerregistryy/pkg/name"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/remote"
 )
 
 // NewCmdCatalog creates a new cobra.Command for the catalog subcommand.

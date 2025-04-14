@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/google/go-containerregistry/internal/verify"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/stgrace/go-containerregistry/internal/verify"
+	"github.com/stgrace/go-containerregistryy/pkg/name"
+	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/partial"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
 )
 
 var acceptableIndexMediaTypes = []types.MediaType{

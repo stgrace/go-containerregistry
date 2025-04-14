@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/stgrace/go-containerregistry/pkg/authn"
+	"github.com/stgrace/go-containerregistryy/pkg/name"
 )
 
 func TestBearerRefresh(t *testing.T) {

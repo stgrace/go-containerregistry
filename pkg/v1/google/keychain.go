@@ -19,8 +19,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/stgrace/go-containerregistry/pkg/authn"
+	"github.com/stgrace/go-containerregistryy/pkg/logs"
 )
 
 // Keychain exports an instance of the google Keychain.

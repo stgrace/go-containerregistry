@@ -22,8 +22,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
+	"github.com/stgrace/go-containerregistry/pkg/name"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/remote/transport"
 )
 
 // ListWithContext calls List with the given context.

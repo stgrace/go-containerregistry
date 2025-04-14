@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/logs"
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/stgrace/go-containerregistry/pkg/authn"
+	"github.com/stgrace/go-containerregistryy/pkg/logs"
+	"github.com/stgrace/go-containerregistryy/pkg/name"
 	"golang.org/x/oauth2"
 )
 

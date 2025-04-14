@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/stgrace/go-containerregistry/pkg/authn"
+	"github.com/stgrace/go-containerregistryy/pkg/name"
 )
 
 func TestCheckPushPermission_Real(t *testing.T) {

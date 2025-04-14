@@ -17,15 +17,15 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/logs"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/empty"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/types"
 	specsv1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/spf13/cobra"
+	"github.com/stgrace/go-containerregistry/pkg/crane"
+	"github.com/stgrace/go-containerregistryy/pkg/logs"
+	"github.com/stgrace/go-containerregistryy/pkg/name"
+	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/empty"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/mutate"
+	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
 )
 
 // NewCmdAppend creates a new cobra.Command for the append subcommand.
