@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/stgrace/go-containerregistry/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote/transport"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 )
 
 type Catalogs struct {

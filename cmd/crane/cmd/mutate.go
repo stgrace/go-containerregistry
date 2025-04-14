@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/name"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/mutate"
 	"github.com/spf13/cobra"
-	"github.com/stgrace/go-containerregistry/pkg/crane"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/mutate"
 )
 
 // NewCmdMutate creates a new cobra.Command for the mutate subcommand.

@@ -17,10 +17,10 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/google/go-containerregistry/pkg/v1/validate"
 	"github.com/spf13/cobra"
-	"github.com/stgrace/go-containerregistry/pkg/crane"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/tarball"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/validate"
 )
 
 // NewCmdValidate creates a new cobra.Command for the validate subcommand.

@@ -24,8 +24,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/stgrace/go-containerregistry/pkg/authn"
-	"github.com/stgrace/go-containerregistryy/pkg/logs"
+	"github.com/google/go-containerregistry/pkg/authn"
+	"github.com/google/go-containerregistry/pkg/logs"
 	corev1 "k8s.io/api/core/v1"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

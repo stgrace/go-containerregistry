@@ -23,13 +23,13 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/stgrace/go-containerregistry/internal/redact"
-	"github.com/stgrace/go-containerregistryy/internal/verify"
-	"github.com/stgrace/go-containerregistryy/pkg/authn"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote/transport"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
+	"github.com/google/go-containerregistry/internal/redact"
+	"github.com/google/go-containerregistry/internal/verify"
+	"github.com/google/go-containerregistry/pkg/authn"
+	"github.com/google/go-containerregistry/pkg/name"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
+	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 const (

@@ -17,8 +17,8 @@ package crane
 import (
 	"fmt"
 
-	"github.com/stgrace/go-containerregistry/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/v1/remote"
 )
 
 // Delete deletes the remote reference at src.

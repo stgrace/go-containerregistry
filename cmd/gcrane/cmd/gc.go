@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/google/go-containerregistry/pkg/gcrane"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/v1/google"
 	"github.com/spf13/cobra"
-	"github.com/stgrace/go-containerregistry/pkg/gcrane"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/google"
 )
 
 // NewCmdGc creates a new cobra.Command for the gc subcommand.

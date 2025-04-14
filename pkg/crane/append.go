@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"os"
 
-	comp "github.com/stgrace/go-containerregistry/internal/compression"
-	"github.com/stgrace/go-containerregistryy/internal/windows"
-	"github.com/stgrace/go-containerregistryy/pkg/compression"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/mutate"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/stream"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/tarball"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
+	comp "github.com/google/go-containerregistry/internal/compression"
+	"github.com/google/go-containerregistry/internal/windows"
+	"github.com/google/go-containerregistry/pkg/compression"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/mutate"
+	"github.com/google/go-containerregistry/pkg/v1/stream"
+	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 func isWindows(img v1.Image) (bool, error) {

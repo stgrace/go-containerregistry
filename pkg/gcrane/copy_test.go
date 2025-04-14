@@ -30,16 +30,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/stgrace/go-containerregistry/internal/retry"
-	"github.com/stgrace/go-containerregistryy/pkg/logs"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/registry"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/google"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/partial"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/random"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote/transport"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
+	"github.com/google/go-containerregistry/internal/retry"
+	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/registry"
+	"github.com/google/go-containerregistry/pkg/v1/google"
+	"github.com/google/go-containerregistry/pkg/v1/partial"
+	"github.com/google/go-containerregistry/pkg/v1/random"
+	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
+	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 type fakeXCR struct {

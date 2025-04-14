@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/name"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/layout"
+	"github.com/google/go-containerregistry/pkg/v1/partial"
+	"github.com/google/go-containerregistry/pkg/v1/remote"
 	"github.com/spf13/cobra"
-	"github.com/stgrace/go-containerregistry/pkg/crane"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/layout"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/partial"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote"
 )
 
 // NewCmdPush creates a new cobra.Command for the push subcommand.

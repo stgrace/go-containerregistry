@@ -2,7 +2,7 @@
 
 [![GitHub Actions Build Status](https://github.com/stgrace/go-containerregistry/workflows/Build/badge.svg)](https://github.com/stgrace/go-containerregistry/actions?query=workflow%3ABuild)
 [![GoDoc](https://godoc.org/github.com/stgrace/go-containerregistry?status.svg)](https://godoc.org/github.com/stgrace/go-containerregistry)
-[![Code Coverage](https://codecov.io/gh/stgrace/go-containerregistry/branch/main/graph/badge.svg)](https://codecov.io/gh/stgrace/go-containerregistry)
+[![Code Coverage](https://codecov.io/gh/google/go-containerregistry/branch/main/graph/badge.svg)](https://codecov.io/gh/google/go-containerregistry)
 
 ## Introduction
 

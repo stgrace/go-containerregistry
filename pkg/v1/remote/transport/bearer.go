@@ -28,10 +28,10 @@ import (
 
 	authchallenge "github.com/docker/distribution/registry/client/auth/challenge"
 
-	"github.com/stgrace/go-containerregistry/internal/redact"
-	"github.com/stgrace/go-containerregistryy/pkg/authn"
-	"github.com/stgrace/go-containerregistryy/pkg/logs"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
+	"github.com/google/go-containerregistry/internal/redact"
+	"github.com/google/go-containerregistry/pkg/authn"
+	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/google/go-containerregistry/pkg/name"
 )
 
 type Token struct {

@@ -23,11 +23,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/stgrace/go-containerregistry/internal/retry"
-	"github.com/stgrace/go-containerregistryy/pkg/authn"
-	"github.com/stgrace/go-containerregistryy/pkg/logs"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote/transport"
+	"github.com/google/go-containerregistry/internal/retry"
+	"github.com/google/go-containerregistry/pkg/authn"
+	"github.com/google/go-containerregistry/pkg/logs"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 )
 
 // Option is a functional option for remote operations.
@@ -104,7 +104,7 @@ const (
 	defaultJobs = 4
 
 	// ECR returns an error if n > 1000:
-	// https://github.com/stgrace/go-containerregistryy/issues/1091
+	// https://github.com/google/go-containerregistry/issues/1091
 	defaultPageSize = 1000
 )
 

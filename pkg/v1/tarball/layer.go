@@ -23,15 +23,15 @@ import (
 	"sync"
 
 	"github.com/containerd/stargz-snapshotter/estargz"
-	"github.com/stgrace/go-containerregistry/internal/and"
-	comp "github.com/stgrace/go-containerregistryy/internal/compression"
-	gestargz "github.com/stgrace/go-containerregistryy/internal/estargz"
-	ggzip "github.com/stgrace/go-containerregistryy/internal/gzip"
-	"github.com/stgrace/go-containerregistryy/internal/zstd"
-	"github.com/stgrace/go-containerregistryy/pkg/compression"
-	"github.com/stgrace/go-containerregistryy/pkg/logs"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
+	"github.com/google/go-containerregistry/internal/and"
+	comp "github.com/google/go-containerregistry/internal/compression"
+	gestargz "github.com/google/go-containerregistry/internal/estargz"
+	ggzip "github.com/google/go-containerregistry/internal/gzip"
+	"github.com/google/go-containerregistry/internal/zstd"
+	"github.com/google/go-containerregistry/pkg/compression"
+	"github.com/google/go-containerregistry/pkg/logs"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 type layer struct {

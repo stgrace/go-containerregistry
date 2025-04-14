@@ -24,13 +24,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/stgrace/go-containerregistry/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/registry"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/empty"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/mutate"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/random"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/registry"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/empty"
+	"github.com/google/go-containerregistry/pkg/v1/mutate"
+	"github.com/google/go-containerregistry/pkg/v1/random"
+	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 func TestWriteLayer_Progress(t *testing.T) {

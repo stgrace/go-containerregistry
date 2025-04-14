@@ -18,9 +18,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/spf13/cobra"
-	"github.com/stgrace/go-containerregistry/pkg/crane"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
 )
 
 // NewCmdDigest creates a new cobra.Command for the digest subcommand.

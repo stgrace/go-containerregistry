@@ -20,8 +20,8 @@ import (
 	"net/http/httputil"
 	"time"
 
-	"github.com/stgrace/go-containerregistry/internal/redact"
-	"github.com/stgrace/go-containerregistryy/pkg/logs"
+	"github.com/google/go-containerregistry/internal/redact"
+	"github.com/google/go-containerregistry/pkg/logs"
 )
 
 type logTransport struct {
@@ -29,7 +29,7 @@ type logTransport struct {
 }
 
 // NewLogger returns a transport that logs requests and responses to
-// github.com/stgrace/go-containerregistryy/pkg/logs.Debug.
+// github.com/google/go-containerregistry/pkg/logs.Debug.
 func NewLogger(inner http.RoundTripper) http.RoundTripper {
 	return &logTransport{inner}
 }

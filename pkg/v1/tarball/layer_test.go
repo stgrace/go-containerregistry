@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/containerd/stargz-snapshotter/estargz"
-	"github.com/stgrace/go-containerregistry/pkg/compression"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/compare"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/validate"
+	"github.com/google/go-containerregistry/pkg/compression"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/compare"
+	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/google/go-containerregistry/pkg/v1/validate"
 )
 
 func TestLayerFromFile(t *testing.T) {

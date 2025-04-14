@@ -17,14 +17,14 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/name"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/cache"
+	"github.com/google/go-containerregistry/pkg/v1/empty"
+	"github.com/google/go-containerregistry/pkg/v1/layout"
+	"github.com/google/go-containerregistry/pkg/v1/remote"
 	"github.com/spf13/cobra"
-	"github.com/stgrace/go-containerregistry/pkg/crane"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/cache"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/empty"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/layout"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote"
 )
 
 // NewCmdPull creates a new cobra.Command for the pull subcommand.

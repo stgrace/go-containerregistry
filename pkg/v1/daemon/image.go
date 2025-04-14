@@ -24,10 +24,10 @@ import (
 	"github.com/docker/docker/api/types/container"
 	api "github.com/docker/docker/api/types/image"
 
-	"github.com/stgrace/go-containerregistry/pkg/name"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/tarball"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/types"
+	"github.com/google/go-containerregistry/pkg/name"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 type image struct {
@@ -107,7 +107,7 @@ func Image(ref name.Reference, options ...Option) (v1.Image, error) {
 	}
 
 	// Eagerly fetch Image ID to ensure it actually exists.
-	// https://github.com/stgrace/go-containerregistryy/issues/1186
+	// https://github.com/google/go-containerregistry/issues/1186
 	id, err := img.ConfigName()
 	if err != nil {
 		return nil, err

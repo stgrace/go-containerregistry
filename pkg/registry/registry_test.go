@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stgrace/go-containerregistry/pkg/registry"
-	v1 "github.com/stgrace/go-containerregistryy/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/registry"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
 )
 
 const (

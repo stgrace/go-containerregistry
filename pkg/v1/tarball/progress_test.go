@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	v1 "github.com/stgrace/go-containerregistry/pkg/v1"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/tarball"
+	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/google/go-containerregistry/pkg/v1/tarball"
 )
 
 func ExampleWithProgress() {

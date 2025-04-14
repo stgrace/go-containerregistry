@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stgrace/go-containerregistry/pkg/logs"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote/transport"
+	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	"golang.org/x/sync/errgroup"
 )
 

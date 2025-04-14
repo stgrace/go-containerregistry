@@ -19,8 +19,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/stgrace/go-containerregistry/cmd/crane/cmd"
-	"github.com/stgrace/go-containerregistryy/pkg/logs"
+	"github.com/google/go-containerregistry/cmd/crane/cmd"
+	"github.com/google/go-containerregistry/pkg/logs"
 )
 
 func init() {

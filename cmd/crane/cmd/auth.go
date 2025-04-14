@@ -25,11 +25,11 @@ import (
 
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/cli/cli/config/types"
+	"github.com/google/go-containerregistry/pkg/authn"
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	"github.com/spf13/cobra"
-	"github.com/stgrace/go-containerregistry/pkg/authn"
-	"github.com/stgrace/go-containerregistryy/pkg/crane"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/remote/transport"
 )
 
 // NewCmdAuth creates a new cobra.Command for the auth subcommand.

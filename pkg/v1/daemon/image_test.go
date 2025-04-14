@@ -28,10 +28,10 @@ import (
 	"github.com/docker/docker/api/types/storage"
 	"github.com/docker/docker/client"
 
-	"github.com/stgrace/go-containerregistry/pkg/name"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/compare"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/tarball"
-	"github.com/stgrace/go-containerregistryy/pkg/v1/validate"
+	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/google/go-containerregistry/pkg/v1/compare"
+	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/google/go-containerregistry/pkg/v1/validate"
 )
 
 var imagePath = "../tarball/testdata/test_image_1.tar"

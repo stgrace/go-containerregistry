@@ -24,8 +24,8 @@ import (
 	"time"
 
 	authchallenge "github.com/docker/distribution/registry/client/auth/challenge"
-	"github.com/stgrace/go-containerregistry/pkg/logs"
-	"github.com/stgrace/go-containerregistryy/pkg/name"
+	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/google/go-containerregistry/pkg/name"
 )
 
 // 300ms is the default fallback period for go's DNS dialer but we could make this configurable.
