@@ -1,4 +1,4 @@
-module github.com/stgrace/go-containerregistry
+module github.com/google/go-containerregistry
 
 go 1.23.0
 
